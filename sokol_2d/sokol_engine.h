@@ -2,12 +2,27 @@
 #ifndef SOKOL_ENGINE_CLASS_H
 #define SOKOL_ENGINE_CLASS_H
 
+#define SGP_UNIFORM_CONTENT_SLOTS 16
 #define SOKOL_IMPL
 #define SOKOL_GLCORE
 #include "sokol/sokol_app.h"
 #include "sokol/sokol_gfx.h"
-#include "sokol_gp.h"
+#include "sokol/sokol_gp.h"
 #include "sokol/sokol_glue.h"
+#include "sokol/sokol_log.h"
+
+#define STB_IMAGE_IMPLEMENTATION
+#define STB_IMAGE_STATIC
+#define STBI_NO_SIMD
+#define STBI_ONLY_PNG
+#include "stb_image.h"
+
+#define SOKOL_SHDC_IMPL
+#include "gp.glsl.h"
+
+
+
+
 
 //for memset & memcpy
 #include <string>

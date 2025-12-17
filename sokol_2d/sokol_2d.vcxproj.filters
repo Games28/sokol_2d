@@ -27,10 +27,10 @@
     <ClInclude Include="texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sokol_gp.h">
+    <ClInclude Include="gp.glsl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="gp.glsl.h">
+    <ClInclude Include="sokol\sokol_gp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

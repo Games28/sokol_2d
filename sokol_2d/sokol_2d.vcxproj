@@ -125,8 +125,8 @@
   <ItemGroup>
     <ClInclude Include="demo.h" />
     <ClInclude Include="gp.glsl.h" />
+    <ClInclude Include="sokol\sokol_gp.h" />
     <ClInclude Include="sokol_engine.h" />
-    <ClInclude Include="sokol_gp.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="texture.h" />
   </ItemGroup>
